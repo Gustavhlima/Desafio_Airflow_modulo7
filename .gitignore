@@ -1,9 +1,13 @@
-airflow-data
+# Ignorar a pasta airflow-data, onde ficam as configurações e logs do Airflow
+airflow-data/
+airflow-data/logs/
+airflow-data/airflow-webserver.pid
+airflow-data/airflow.db
+airflow-data/webserver_config.py
+airflow-data/standalone_admin_password.txt
 
-# These are some examples of commonly ignored file patterns.
-# You should customize this list as applicable to your project.
-# Learn more about .gitignore:
-#     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+# Ignorar a pasta do ambiente virtual
+venv/
 
 # Node artifact files
 node_modules/
@@ -49,4 +53,3 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
-
